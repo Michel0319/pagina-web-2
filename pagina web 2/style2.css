@@ -1,0 +1,281 @@
+body,html
+
+{
+
+margin: 0;
+
+padding: 0;
+
+height: 100%;
+
+font-family: Arial, sans-serif;
+
+}
+
+.container
+
+{
+
+display: flex;
+
+flex-direction: column;
+
+min-height: 100vh;
+
+
+}
+.logo
+{
+    height: 100%;
+    width: 15%;
+    background-color: none;
+}
+header
+
+{
+
+background-color: #333;
+
+color: #fff;
+
+text-align: center;
+
+padding: 20px;
+
+background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/696a006f-1377-4012-b082-c23f029a58e7-profile_banner-480.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav
+
+{
+
+background-color: #444;
+
+}
+
+nav ul
+
+{
+
+list-style: none;
+
+padding: 0;
+
+display: flex;
+
+justify-content: right;
+
+margin: 0;
+
+text-transform: uppercase;
+}
+
+nav li
+
+{
+
+margin: 0 15px;
+
+}
+
+nav a
+
+{
+
+text-decoration: none;
+
+color: #fff;
+
+}
+nav li a:hover
+{
+    padding: 5px 10px;
+    background: #fff;
+    color: black;
+    border-radius: 15px;
+}
+
+main
+
+{
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-around;
+
+align-items: flex-start;
+
+background-color: #f2f2f2;
+
+padding: 20px;
+
+flex: 1;
+
+background-image: url(https://st4.depositphotos.com/12985848/19849/i/450/depositphotos_198497854-stock-illustration-abstract-pink-purple-smoke-black.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.tarjeta
+
+{
+
+width: 300px;
+
+background-color: #f2f2f2;
+
+border-radius: 5px;
+
+box-shadow: 15px 15px 15px rgba( 0, 0, 0,0.75);
+
+padding: 20px;
+
+text-align: center;
+
+margin-bottom: 20px;
+
+}
+
+.tarjeta img
+
+{
+
+max-width: 100%;
+
+border-radius: 5px;
+
+}
+
+footer
+
+{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 10px 20px;
+
+background-color: #7b0892;
+
+color: #fff;
+
+}
+
+footer .icons
+
+{
+
+display: flex;
+
+gap: 15px;
+
+}
+
+footer .icons a
+
+{
+
+display: flex;
+
+align-items: center;
+
+}
+
+footer .icons img
+
+{
+
+width: 52px;
+
+height: 52px;
+
+}
+
+footer .icons a:hover img
+
+{
+
+opacity: 0.8;
+
+}
+
+@media (max-width: 550px)
+
+{
+
+nav ul
+
+{
+
+flex-direction: column;
+
+align-items: center;
+
+}
+
+nav li
+
+{
+
+margin: 5px 0;
+
+}
+
+main
+
+{
+
+flex-direction: column;
+
+align-items: center;
+
+padding: 10px;
+
+}
+
+.tarjeta
+
+{
+
+width: 90%;
+
+margin-bottom: 50px;
+
+}
+
+footer
+
+{
+
+padding: 15px 0;
+
+}
+
+footer .icons
+
+{
+
+gap: 10px;
+
+}
+
+footer .icons img
+
+{
+
+width: 36px;
+
+height: 36px;
+
+}
+
+}
+
